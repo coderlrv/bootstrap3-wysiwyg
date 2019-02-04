@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap3-wysihtml5-bower",
+  "name": "@coder-lrv/bootstrap3-wysihtml5-bower",
   "version": "0.3.5",
   "description": "Bootstrap 3 compatible wysiwyg editor",
   "directories": {
