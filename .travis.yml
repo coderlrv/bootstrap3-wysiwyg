@@ -3,9 +3,11 @@ node_js:
   - "8"
   - "9"
 
-cache: yarn
+cache: npm
 
-install: yarn
+before_script:
+  - npm install grunt-cli -g
+  - npm install
 jobs:
   include:
     - stage: npm release
