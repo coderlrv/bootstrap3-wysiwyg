@@ -12471,7 +12471,7 @@ wysihtml5.views.View = Base.extend(
           return;
         }
 
-        if (that.config.useLineBreaks && keyCode === wysihtml5.ENTER_KEY && !wysihtml5.browser.insertsLineBreaksOnReturn()) {
+        if (that.config.useLineBreaks && keyCode === wysihtml5.ENTER_KEY) {
           event.preventDefault();
           that.commands.exec("insertLineBreak");
 
